@@ -30,7 +30,7 @@ public class CrystalCruisestoTakeSnap {
 		driver.get("http://legacy.crystalcruises.com/Calendar.aspx");
 		
 		
-		//Maximize
+		//Maximize the window
 		driver.manage().window().maximize();
 				
 		//Enter the UserName
