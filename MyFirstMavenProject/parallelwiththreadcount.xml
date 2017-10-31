@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="ParallelWithThreadcount" parallel="classes">
+  <test name="TestParallelwiththread|Count">
+    <classes>
+      <class name="tests.CreateLead"/>
+      <class name="tests.Facebook"/>
+      <class name="tests.FindLead"/>
+    </classes>
+  </test> <!-- TestParallelwiththread|Count -->
+</suite> <!-- ParallelWithThreadcount -->

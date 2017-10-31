@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NormalXML]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.FindLead">
+        <methods>
+          <include name="findLead"/>
+        </methods>
+      </class> <!-- tests.FindLead -->
+      <class name="tests.CreateLead">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- tests.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [NormalXML] -->

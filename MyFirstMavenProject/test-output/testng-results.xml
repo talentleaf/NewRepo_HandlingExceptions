@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102" started-at="2017-10-28T09:54:03Z" finished-at="2017-10-28T09:54:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="102" started-at="2017-10-28T09:54:03Z" finished-at="2017-10-28T09:54:03Z">
+      <class name="collectionsprograms.GetOccuranceofEachCharacter">
+        <test-method status="PASS" signature="checkforrepeatedOccurence()[pri:0, instance:collectionsprograms.GetOccuranceofEachCharacter@604ed9f0]" name="checkforrepeatedOccurence" duration-ms="41" started-at="2017-10-28T15:24:03Z" finished-at="2017-10-28T15:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkforrepeatedOccurence -->
+      </class> <!-- collectionsprograms.GetOccuranceofEachCharacter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

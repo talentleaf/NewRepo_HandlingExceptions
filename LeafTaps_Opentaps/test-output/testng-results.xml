@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="12" total="20" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="325740" started-at="2017-10-25T06:48:04Z" finished-at="2017-10-25T06:53:29Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="262054" started-at="2017-10-25T06:48:04Z" finished-at="2017-10-25T06:52:26Z">
+      <class name="tests.TC004_EditFunction">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="beforeSuite" is-config="true" duration-ms="1363" started-at="2017-10-25T12:18:02Z" finished-at="2017-10-25T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-25T12:18:04Z" finished-at="2017-10-25T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:18:04Z" finished-at="2017-10-25T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="login" is-config="true" duration-ms="83576" started-at="2017-10-25T12:18:05Z" finished-at="2017-10-25T12:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="editfun(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="editfun" duration-ms="89971" started-at="2017-10-25T12:19:28Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Karpagam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wipro]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at utils.Reports.logSteps(Reports.java:35)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:227)
+	at pages.FindLeadPage.clickonSearchedLead(FindLeadPage.java:34)
+	at tests.TC004_EditFunction.editfun(TC004_EditFunction.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="close" is-config="true" duration-ms="1023" started-at="2017-10-25T12:20:59Z" finished-at="2017-10-25T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:21:00Z" finished-at="2017-10-25T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="afterTest" is-config="true" duration-ms="110" started-at="2017-10-25T12:22:26Z" finished-at="2017-10-25T12:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.TC004_EditFunction@5a8e6209]" name="afterSuite" is-config="true" duration-ms="4590" started-at="2017-10-25T12:23:30Z" finished-at="2017-10-25T12:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TC004_EditFunction -->
+      <class name="tests.TC005_MergeLeadEndtoEnd">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC005_MergeLeadEndtoEnd@4b4523f8]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-10-25T12:21:00Z" finished-at="2017-10-25T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC005_MergeLeadEndtoEnd@4b4523f8]" name="login" is-config="true" duration-ms="19562" started-at="2017-10-25T12:21:00Z" finished-at="2017-10-25T12:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="mergeLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC005_MergeLeadEndtoEnd@4b4523f8]" name="mergeLeadfun" duration-ms="65795" started-at="2017-10-25T12:21:19Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nirmala]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at utils.Reports.logSteps(Reports.java:35)
+	at wrappers.GenericWrappers.clickByXpathNoSnap(GenericWrappers.java:247)
+	at pages.FindLeadLookUpPage.clickonSearchedLead(FindLeadLookUpPage.java:34)
+	at tests.TC005_MergeLeadEndtoEnd.mergeLeadfun(TC005_MergeLeadEndtoEnd.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC005_MergeLeadEndtoEnd@4b4523f8]" name="close" is-config="true" duration-ms="115" started-at="2017-10-25T12:22:25Z" finished-at="2017-10-25T12:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC005_MergeLeadEndtoEnd@4b4523f8]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:22:25Z" finished-at="2017-10-25T12:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TC005_MergeLeadEndtoEnd -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="325740" started-at="2017-10-25T06:48:04Z" finished-at="2017-10-25T06:53:29Z">
+      <class name="tests.TC002_CreateLead">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-10-25T12:19:45Z" finished-at="2017-10-25T12:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="login" is-config="true" duration-ms="25750" started-at="2017-10-25T12:19:45Z" finished-at="2017-10-25T12:20:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="createLeadfun" duration-ms="51541" started-at="2017-10-25T12:20:11Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nirmala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A.S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="close" is-config="true" duration-ms="3130" started-at="2017-10-25T12:21:03Z" finished-at="2017-10-25T12:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="login" is-config="true" duration-ms="13667" started-at="2017-10-25T12:21:06Z" finished-at="2017-10-25T12:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="createLeadfun" duration-ms="30440" started-at="2017-10-25T12:21:20Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karpagam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="close" is-config="true" duration-ms="4632" started-at="2017-10-25T12:21:50Z" finished-at="2017-10-25T12:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="login" is-config="true" duration-ms="9932" started-at="2017-10-25T12:21:55Z" finished-at="2017-10-25T12:22:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="createLeadfun" duration-ms="19094" started-at="2017-10-25T12:22:05Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karpagam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="close" is-config="true" duration-ms="3045" started-at="2017-10-25T12:22:24Z" finished-at="2017-10-25T12:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="login" is-config="true" duration-ms="11476" started-at="2017-10-25T12:22:27Z" finished-at="2017-10-25T12:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="createLeadfun" duration-ms="20855" started-at="2017-10-25T12:22:38Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karpagam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="close" is-config="true" duration-ms="2100" started-at="2017-10-25T12:22:59Z" finished-at="2017-10-25T12:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC002_CreateLead@5ce81285]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:23:01Z" finished-at="2017-10-25T12:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TC002_CreateLead -->
+      <class name="tests.TC001_LeafTapLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-10-25T12:18:04Z" finished-at="2017-10-25T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:18:04Z" finished-at="2017-10-25T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="login" is-config="true" duration-ms="83708" started-at="2017-10-25T12:18:05Z" finished-at="2017-10-25T12:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginfun(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="loginfun" duration-ms="11357" started-at="2017-10-25T12:19:29Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="close" is-config="true" duration-ms="5361" started-at="2017-10-25T12:19:40Z" finished-at="2017-10-25T12:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:19:45Z" finished-at="2017-10-25T12:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TC001_LeafTapLogin@52a86356]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-25T12:23:29Z" finished-at="2017-10-25T12:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TC001_LeafTapLogin -->
+      <class name="tests.TC003_FindLead">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC003_FindLead@78c03f1f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:23:01Z" finished-at="2017-10-25T12:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_FindLead@78c03f1f]" name="login" is-config="true" duration-ms="8905" started-at="2017-10-25T12:23:01Z" finished-at="2017-10-25T12:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="findLeadfun(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_FindLead@78c03f1f]" name="findLeadfun" duration-ms="17051" started-at="2017-10-25T12:23:10Z" data-provider="getDataFromExcel" finished-at="2017-10-25T12:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Karpagam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findLeadfun -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_FindLead@78c03f1f]" name="close" is-config="true" duration-ms="2067" started-at="2017-10-25T12:23:27Z" finished-at="2017-10-25T12:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC003_FindLead@78c03f1f]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-25T12:23:29Z" finished-at="2017-10-25T12:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TC003_FindLead -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
